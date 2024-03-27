@@ -18,6 +18,7 @@ return {
         "html-lsp",
         "htmx-lsp",
         "tailwindcss-language-server",
+        "codelldb",
       },
     },
   },
