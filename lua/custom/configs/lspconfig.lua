@@ -71,3 +71,12 @@ lspconfig.helm_ls.setup({
   cmd = {"helm-ls", "serve"},
 })
 
+lspconfig.helm_ls.setup {
+  settings = {
+    ['helm-ls'] = {
+      yamlls = {
+        path = "yaml-language-server",
+      }
+    }
+  }
+}

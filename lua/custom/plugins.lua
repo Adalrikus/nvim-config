@@ -77,7 +77,7 @@ local plugins = {
         "mypy",
         "ruff",
         "pyright",
-        "helm_ls",
+        "helm-ls",
         "robotframework-lsp",
         "gopls",
         "templ",
